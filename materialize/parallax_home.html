@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Lato", sans-serif;}
+ 
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+ 
+.tablink:hover {
+    background-color: #777;
+}
+ 
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: left;
+}
+ 
+#London {background-color:#00e676;}
+#Paris {background-color:#2e7d32;}
+#Tokyo {background-color:#0277bd;}
+#Oslo {background-color:#ef6c00;}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('featured-pic.jpg');
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('1.jpg');
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.bgimg-2 {
+  background-image: url("field-autumn-lines-patterns-agriculture-clouds-volume-full-hd-nature-wallpaper.jpg");
+  min-height: 400px;
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+</style>
+<!-- footer -->
+<title>hell ----- is ----- here</title>
+<!-- for-mobile-apps -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Simple Footer Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //for-mobile-apps -->
+<link href="cssfooter/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<div id="London" class="tabcontent">
+  <h3>KISAN SEVA </h3>
+  <p>A revolutionaly way to change life of farmers.</p>
+</div>
+ 
+<div id="Paris" class="tabcontent">
+  <h3>KISAN SEVA </h3>
+  <p>A revolutionaly way to change life of farmers.</p>
+</div>
+ 
+<div id="Tokyo" class="tabcontent">
+  <h3>KISAN SEVA </h3>
+  <p>A revolutionaly way to change life of farmers.</p>
+</div>
+ 
+<div id="Oslo" class="tabcontent">
+  <h3>KISAN SEVA </h3>
+  <p>A revolutionaly way to change life of farmers.</p>
+</div>
+ 
+<button class="tablink" onclick="openCity('London', this, '#388e3c')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Farmer</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Buyer</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Transport</button>
+ 
+<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+ 
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<div class="parallax"></div>
+<div class="caption">
+  <span class="border">Ek Chod si tagline</span>
+</div>
+<div style="height:500px;background-color: ;
+ background-color: transparent;
+ background-color: rgba(0, 0, 0, 0);font-size:30px"; >
+
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+<div class="bgimg-2" >
+  <span class="border"></span>
+</div>
+<div style="height:400px;font-size:30px; " >
+
+222222222222222222222
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+<div class="parallax" ></div>
+
+<div class="parallax1"></div>
+
+<div style="height:500px;font-size:30px"; >
+
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax1" ></div>
+
+<!--  FOoTER -->
+<!-- <div class="main"> 
+    <h1>Contact Us</h1>    -->
+    <div class="content">
+      <div class="footer-grids">
+        <div class="footer one">
+          <h3>More About Company</h3>
+          <p> Nemo enim ipsam voluptatem quia
+          voluptas sit aspernatur aut odit aut fugit, 
+          sed quia consequuntur magni dolores eos qui 
+          ratione voluptatem sequi nesciunt.</p>
+          <p class="adam">- Patrick Victoria, CEO</p>
+          <div class="clear"></div>
+        </div>
+        <div class="footer two">
+          <h3>Keep Connected</h3>
+          <ul>
+            <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+            <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+            <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+            <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+            <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="footer three">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>The company name <span>Lorem ipsum dolor,</span>Glasglow Dr 40 Fe 72.  </li>
+            <li>1234567890  </li>
+            <li><a href="mailto:info@example.com">contact@example.com</a> </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="copy-right-grids">
+        <div class="copy-left">
+            <p class="footer-gd">© 2016 Simple Footer Widget. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+        </div>
+        <div class="copy-right">
+          <ul>
+            <li><a href="#">Company Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+   
+</body>
+</html>
